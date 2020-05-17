@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var dias=prompt('Ingrese un dia de la semana y un numero:','');
+  var patron=/[lunes|martes|miercoles|jueves|viernes|sabado|domingo]\s\d{1}$/;
+  if (patron.test(dias))
+    document.write('Ingreso un dia y un numero');
+  else
+    document.write('No cumplio con lo pedido');
+</script>
+  
+</body>
+</html>
